@@ -1,7 +1,7 @@
 (() => {
  const root=document.querySelector('.review-demo'); if(!root)return;
  const $=s=>root.querySelector(s), $$=s=>[...root.querySelectorAll(s)];
- const base='/yuki-edition-3/demos/review-assistant/';
+ const base='/demos/review-assistant/';
  const issues=[
   {id:1,title:'底部操作由横向改为纵向',kind:'明确差异',description:'设计稿的“直接退出 / 打开游戏”为并列双按钮；开发截图为上下排列，操作层级与布局发生变化。',box:[4,62,92,35]},
   {id:2,title:'主按钮的颜色与样式不一致',kind:'明确差异',description:'设计稿采用白底深色文字；开发截图采用红色圆角填充与白色文字，需核对按钮规范。',box:[7,64,86,18]},

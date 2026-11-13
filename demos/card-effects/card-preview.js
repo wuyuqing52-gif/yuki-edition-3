@@ -29,110 +29,110 @@ const levelNames = {
 };
 
 const placeholderAssets = {
-  background: "/yuki-edition-3/demos/card-effects/assets/preview-card-background.webp",
-  character: "/yuki-edition-3/demos/card-effects/assets/preview-card-character.webp",
-  ui: "/yuki-edition-3/demos/card-effects/assets/preview-card-ui.webp",
-  shineMask: "/yuki-edition-3/demos/card-effects/assets/preview-card-background.webp"
+  background: "/demos/card-effects/assets/preview-card-background.webp",
+  character: "/demos/card-effects/assets/preview-card-character.webp",
+  ui: "/demos/card-effects/assets/preview-card-ui.webp",
+  shineMask: "/demos/card-effects/assets/preview-card-background.webp"
 };
 
 const baseCardAssets = {
   "0:1": {
     type: "base-plan1-normal",
     label: "基础方案一普通卡牌",
-    composite: "/yuki-edition-3/demos/card-effects/assets/base-plan1-normal.webp",
-    shineMask: "/yuki-edition-3/demos/card-effects/assets/base-plan1-normal.webp"
+    composite: "/demos/card-effects/assets/base-plan1-normal.webp",
+    shineMask: "/demos/card-effects/assets/base-plan1-normal.webp"
   },
   "0:2": {
     type: "base-plan1-rare",
     label: "基础方案一稀有卡牌",
-    composite: "/yuki-edition-3/demos/card-effects/assets/base-plan1-rare.webp",
-    shineMask: "/yuki-edition-3/demos/card-effects/assets/base-plan1-rare.webp"
+    composite: "/demos/card-effects/assets/base-plan1-rare.webp",
+    shineMask: "/demos/card-effects/assets/base-plan1-rare.webp"
   },
   "1:1": {
     type: "base-plan2-normal",
     label: "基础方案二普通卡牌",
-    composite: "/yuki-edition-3/demos/card-effects/assets/base-plan2-normal.webp",
-    shineMask: "/yuki-edition-3/demos/card-effects/assets/base-plan2-normal.webp"
+    composite: "/demos/card-effects/assets/base-plan2-normal.webp",
+    shineMask: "/demos/card-effects/assets/base-plan2-normal.webp"
   },
   "1:2": {
     type: "base-plan2-rare",
     label: "基础方案二稀有卡牌",
-    composite: "/yuki-edition-3/demos/card-effects/assets/base-plan2-rare.webp",
-    shineMask: "/yuki-edition-3/demos/card-effects/assets/base-plan2-rare.webp"
+    composite: "/demos/card-effects/assets/base-plan2-rare.webp",
+    shineMask: "/demos/card-effects/assets/base-plan2-rare.webp"
   },
   "1:3": {
     type: "base-plan2-super",
     label: "基础方案二超稀有卡牌",
-    background: "/yuki-edition-3/demos/card-effects/assets/base-plan2-super-background.webp",
-    character: "/yuki-edition-3/demos/card-effects/assets/base-plan2-super-character.webp",
-    ui: "/yuki-edition-3/demos/card-effects/assets/base-plan2-super-ui.webp",
-    shineMask: "/yuki-edition-3/demos/card-effects/assets/base-plan2-super-background.webp"
+    background: "/demos/card-effects/assets/base-plan2-super-background.webp",
+    character: "/demos/card-effects/assets/base-plan2-super-character.webp",
+    ui: "/demos/card-effects/assets/base-plan2-super-ui.webp",
+    shineMask: "/demos/card-effects/assets/base-plan2-super-background.webp"
   },
   "1:4": {
     type: "base-plan2-legend",
     label: "基础方案二典藏动态卡牌",
-    background: "/yuki-edition-3/demos/card-effects/assets/base-plan2-legend-background.webp",
-    character: "/yuki-edition-3/demos/card-effects/assets/lv3-gold-character.webp",
-    ui: "/yuki-edition-3/demos/card-effects/assets/base-plan2-legend-ui.webp",
-    shineMask: "/yuki-edition-3/demos/card-effects/assets/base-plan2-legend-background.webp",
+    background: "/demos/card-effects/assets/base-plan2-legend-background.webp",
+    character: "/demos/card-effects/assets/lv3-gold-character.webp",
+    ui: "/demos/card-effects/assets/base-plan2-legend-ui.webp",
+    shineMask: "/demos/card-effects/assets/base-plan2-legend-background.webp",
     animatedCharacter: true
   },
   "0:4": {
     type: "base-plan1-legend",
     label: "基础方案一典藏动态卡牌",
-    background: "/yuki-edition-3/demos/card-effects/assets/lv3-gold-static-background.webp",
-    character: "/yuki-edition-3/demos/card-effects/assets/lv3-gold-character.webp",
-    ui: "/yuki-edition-3/demos/card-effects/assets/lv3-gold-ui.webp",
-    shineMask: "/yuki-edition-3/demos/card-effects/assets/lv3-gold-static-background.webp",
+    background: "/demos/card-effects/assets/lv3-gold-static-background.webp",
+    character: "/demos/card-effects/assets/lv3-gold-character.webp",
+    ui: "/demos/card-effects/assets/lv3-gold-ui.webp",
+    shineMask: "/demos/card-effects/assets/lv3-gold-static-background.webp",
     animatedCharacter: true
   }
 };
 
 const lv3SuperAssets = {
-  background: "/yuki-edition-3/demos/card-effects/assets/lv3-super-background.webp",
-  character: "/yuki-edition-3/demos/card-effects/assets/preview-card-character.webp",
-  effect: "/yuki-edition-3/demos/card-effects/assets/lv3-legend-effect.webp",
-  ui: "/yuki-edition-3/demos/card-effects/assets/preview-card-ui.webp",
-  shineMask: "/yuki-edition-3/demos/card-effects/assets/preview-card-background.webp",
+  background: "/demos/card-effects/assets/lv3-super-background.webp",
+  character: "/demos/card-effects/assets/preview-card-character.webp",
+  effect: "/demos/card-effects/assets/lv3-legend-effect.webp",
+  ui: "/demos/card-effects/assets/preview-card-ui.webp",
+  shineMask: "/demos/card-effects/assets/preview-card-background.webp",
   animatedBackground: true
 };
 
 const lv3NormalAssets = {
-  composite: "/yuki-edition-3/demos/card-effects/assets/lv3-plan1-normal.webp",
-  shineMask: "/yuki-edition-3/demos/card-effects/assets/base-plan1-normal.webp"
+  composite: "/demos/card-effects/assets/lv3-plan1-normal.webp",
+  shineMask: "/demos/card-effects/assets/base-plan1-normal.webp"
 };
 
 const lv3RareAssets = {
-  composite: "/yuki-edition-3/demos/card-effects/assets/lv3-plan1-rare.webp",
-  shineMask: "/yuki-edition-3/demos/card-effects/assets/base-plan1-rare.webp"
+  composite: "/demos/card-effects/assets/lv3-plan1-rare.webp",
+  shineMask: "/demos/card-effects/assets/base-plan1-rare.webp"
 };
 
 const lv2NormalAssets = {
-  composite: "/yuki-edition-3/demos/card-effects/assets/lv2-plan1-normal.webp",
-  shineMask: "/yuki-edition-3/demos/card-effects/assets/base-plan1-normal.webp"
+  composite: "/demos/card-effects/assets/lv2-plan1-normal.webp",
+  shineMask: "/demos/card-effects/assets/base-plan1-normal.webp"
 };
 
 const lv2RareAssets = {
-  composite: "/yuki-edition-3/demos/card-effects/assets/lv2-plan1-rare.webp",
-  shineMask: "/yuki-edition-3/demos/card-effects/assets/base-plan1-rare.webp"
+  composite: "/demos/card-effects/assets/lv2-plan1-rare.webp",
+  shineMask: "/demos/card-effects/assets/base-plan1-rare.webp"
 };
 
 const lv2SuperAssets = {
-  underlay: "/yuki-edition-3/demos/card-effects/assets/lv2-plan1-super-underlay.webp",
-  background: "/yuki-edition-3/demos/card-effects/assets/zhouwang-bg.webp",
-  character: "/yuki-edition-3/demos/card-effects/assets/preview-card-character.webp",
-  effect: "/yuki-edition-3/demos/card-effects/assets/lv2-plan1-super-effect.webp",
-  ui: "/yuki-edition-3/demos/card-effects/assets/preview-card-ui.webp",
-  shineMask: "/yuki-edition-3/demos/card-effects/assets/zhouwang-bg.webp",
+  underlay: "/demos/card-effects/assets/lv2-plan1-super-underlay.webp",
+  background: "/demos/card-effects/assets/zhouwang-bg.webp",
+  character: "/demos/card-effects/assets/preview-card-character.webp",
+  effect: "/demos/card-effects/assets/lv2-plan1-super-effect.webp",
+  ui: "/demos/card-effects/assets/preview-card-ui.webp",
+  shineMask: "/demos/card-effects/assets/zhouwang-bg.webp",
   animatedUnderlay: true
 };
 
 const lv2LegendAssets = {
-  background: "/yuki-edition-3/demos/card-effects/assets/lv2-gold-background.webp",
-  character: "/yuki-edition-3/demos/card-effects/assets/lv3-gold-character.webp",
-  effect: "/yuki-edition-3/demos/card-effects/assets/lv2-gold-effect.webp",
-  ui: "/yuki-edition-3/demos/card-effects/assets/lv2-gold-ui.webp",
-  shineMask: "/yuki-edition-3/demos/card-effects/assets/lv3-gold-static-background.webp",
+  background: "/demos/card-effects/assets/lv2-gold-background.webp",
+  character: "/demos/card-effects/assets/lv3-gold-character.webp",
+  effect: "/demos/card-effects/assets/lv2-gold-effect.webp",
+  ui: "/demos/card-effects/assets/lv2-gold-ui.webp",
+  shineMask: "/demos/card-effects/assets/lv3-gold-static-background.webp",
   animatedBackground: true,
   animatedCharacter: true
 };
@@ -175,24 +175,24 @@ const lv2Plan2LegendAssets = {
 };
 
 const lv3Plan2NormalAssets = {
-  underlay: "/yuki-edition-3/demos/card-effects/assets/lv3-plan1-rare.webp",
-  background: "/yuki-edition-3/demos/card-effects/assets/base-plan2-normal.webp",
-  effect: "/yuki-edition-3/demos/card-effects/assets/lv3-legend-effect.webp",
-  shineMask: "/yuki-edition-3/demos/card-effects/assets/base-plan2-normal.webp",
+  underlay: "/demos/card-effects/assets/lv3-plan1-rare.webp",
+  background: "/demos/card-effects/assets/base-plan2-normal.webp",
+  effect: "/demos/card-effects/assets/lv3-legend-effect.webp",
+  shineMask: "/demos/card-effects/assets/base-plan2-normal.webp",
   animatedUnderlay: true
 };
 
 const lv3Plan2RareAssets = {
-  underlay: "/yuki-edition-3/demos/card-effects/assets/lv3-super-background.webp",
-  background: "/yuki-edition-3/demos/card-effects/assets/base-plan2-rare.webp",
-  effect: "/yuki-edition-3/demos/card-effects/assets/lv3-legend-effect.webp",
-  shineMask: "/yuki-edition-3/demos/card-effects/assets/base-plan2-rare.webp",
+  underlay: "/demos/card-effects/assets/lv3-super-background.webp",
+  background: "/demos/card-effects/assets/base-plan2-rare.webp",
+  effect: "/demos/card-effects/assets/lv3-legend-effect.webp",
+  shineMask: "/demos/card-effects/assets/base-plan2-rare.webp",
   animatedUnderlay: true
 };
 
 const lv3Plan2SuperAssets = {
   underlaySequence: {
-    directory: "/yuki-edition-3/demos/card-effects/assets/lv3-plan2-super-underlay-frames",
+    directory: "/demos/card-effects/assets/lv3-plan2-super-underlay-frames",
     prefix: "frame-",
     start: 0,
     count: 74,
@@ -200,20 +200,20 @@ const lv3Plan2SuperAssets = {
     extension: "webp",
     frameMs: 50
   },
-  character: "/yuki-edition-3/demos/card-effects/assets/base-plan2-super-character.webp",
-  effect: "/yuki-edition-3/demos/card-effects/assets/lv3-gold-effect.webp",
-  ui: "/yuki-edition-3/demos/card-effects/assets/base-plan2-super-ui.webp",
-  shineMask: "/yuki-edition-3/demos/card-effects/assets/base-plan2-super-background.webp",
+  character: "/demos/card-effects/assets/base-plan2-super-character.webp",
+  effect: "/demos/card-effects/assets/lv3-gold-effect.webp",
+  ui: "/demos/card-effects/assets/base-plan2-super-ui.webp",
+  shineMask: "/demos/card-effects/assets/base-plan2-super-background.webp",
   animatedUnderlay: true
 };
 
 const lv3LegendAssets = {
-  underlay: "/yuki-edition-3/demos/card-effects/assets/lv3-gold-underlay.webp",
-  background: "/yuki-edition-3/demos/card-effects/assets/lv3-gold-static-background.webp",
-  character: "/yuki-edition-3/demos/card-effects/assets/lv3-gold-character.webp",
-  effect: "/yuki-edition-3/demos/card-effects/assets/lv3-gold-effect.webp",
-  ui: "/yuki-edition-3/demos/card-effects/assets/lv3-gold-ui.webp",
-  shineMask: "/yuki-edition-3/demos/card-effects/assets/lv3-gold-static-background.webp",
+  underlay: "/demos/card-effects/assets/lv3-gold-underlay.webp",
+  background: "/demos/card-effects/assets/lv3-gold-static-background.webp",
+  character: "/demos/card-effects/assets/lv3-gold-character.webp",
+  effect: "/demos/card-effects/assets/lv3-gold-effect.webp",
+  ui: "/demos/card-effects/assets/lv3-gold-ui.webp",
+  shineMask: "/demos/card-effects/assets/lv3-gold-static-background.webp",
   animatedUnderlay: true,
   animatedCharacter: true
 };
