@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://wuyuqing52-gif.github.io/yuki-edition-3/sitemap.xml
