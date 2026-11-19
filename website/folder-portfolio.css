@@ -101,7 +101,7 @@ body:has(#contact:target) .shelf-nav a[href="/website/#contact"]::before {
   position: absolute;
   z-index: -1;
   inset: -.03em -.11em -.03em -.15em;
-  background: url("/website/assets/folder-portfolio/title-marker.svg") center / 100% 100% no-repeat;
+  background: url("/website/assets/folder-portfolio/title-marker.svg?v=62bb96a635be") center / 100% 100% no-repeat;
   pointer-events: none;
 }
 .shelf-title-marker::before { opacity: .55; }
@@ -287,7 +287,7 @@ body:has(#contact:target) .shelf-nav a[href="/website/#contact"]::before {
 .shelf-home .shelf-career,
 .shelf-home .shelf-career li {
   border-color: transparent;
-  background: url("/website/assets/folder-portfolio/career-rule.svg") left top / 599px 1px repeat-x border-box;
+  background: url("/website/assets/folder-portfolio/career-rule.svg?v=1d15e1fabf1a") left top / 599px 1px repeat-x border-box;
 }
 .shelf-home .shelf-career li { background-position: left bottom; }
 
@@ -327,7 +327,7 @@ body:has(#contact:target) .shelf-nav a[href="/website/#contact"]::before {
 }
 .shelf-home .shelf-footer-row {
   border-color: transparent;
-  background: url("/website/assets/folder-portfolio/footer-rule.svg") left top / 100% 1px no-repeat border-box;
+  background: url("/website/assets/folder-portfolio/footer-rule.svg?v=a2357e02029b") left top / 100% 1px no-repeat border-box;
 }
 
 body.e3-case:not(.e3-card-dark) {
